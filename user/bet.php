@@ -1,5 +1,4 @@
 <?php
-include '../includes/db.php'; // Database connection
 include '../includes/header.php';
 
 ?>

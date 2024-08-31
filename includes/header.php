@@ -17,7 +17,7 @@ $is_logged_in = isset($_SESSION['user_id']);
     <header>
         <nav>
             <ul>
-                <a href="index.php">Home</a>
+                <a href="../index.php">Home</a>
                 <?php if ($is_logged_in): ?>
                     <a href="bet.php">Bet</a> <!-- Link to bet page -->
                     <a href="dashboard.php">Dashboard</a>
@@ -25,8 +25,8 @@ $is_logged_in = isset($_SESSION['user_id']);
                     <a href="history.php">My History</a> <!-- Link to user history -->
                     <a href="logout.php">Logout</a>
                 <?php else: ?>
-                    <a href="login.php">Login</a>
-                    <a href="register.php">Register</a>
+                    <a href="/crash//user/login.php">Login</a>
+                    <a href="/crash/user/register.php">Register</a>
                 <?php endif; ?>
             </ul>
         </nav>
